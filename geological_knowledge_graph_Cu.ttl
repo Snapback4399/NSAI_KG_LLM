@@ -1,0 +1,358 @@
+@prefix ns1: <http://example.org/geo#> .
+
+ns1:Distal_Disseminated_Ag-Au a ns1:DepositType .
+
+ns1:Distal_disseminated_Ag-Au a ns1:DepositType ;
+    ns1:hasElement "Ag",
+        "As",
+        "Au" ;
+    ns1:hasMineral "Arsenopyrite",
+        "Pyrite" ;
+    ns1:hasRockType "Sedimentary rocks" ;
+    ns1:hasTectonicSetting "Distal to porphyry systems" .
+
+ns1:High_sulfidation_Au-Ag a ns1:DepositType ;
+    ns1:hasAlteration "Advanced argillic",
+        "Silicification" ;
+    ns1:hasAssociatedDeposit "Epithermal veins" ;
+    ns1:hasElement "Ag",
+        "Au",
+        "Cu" ;
+    ns1:hasMineral "Alunite",
+        "Enargite",
+        "Pyrophyllite" ;
+    ns1:hasRockType "Volcanic rocks" ;
+    ns1:hasTectonicSetting "Island-arc volcanism" .
+
+ns1:High_sulfidation_Au-Ag_Cu a ns1:DepositType ;
+    ns1:hasAlteration "Advanced argillic",
+        "Silicification" ;
+    ns1:hasAssociatedDeposit "Epithermal veins" ;
+    ns1:hasElement "Ag",
+        "Au",
+        "Cu" ;
+    ns1:hasMineral "Alunite",
+        "Enargite",
+        "Pyrophyllite" ;
+    ns1:hasRockType "Volcanic rocks" ;
+    ns1:hasTectonicSetting "Island-arc volcanism" .
+
+ns1:High_sulfidation_Sulfur a ns1:DepositType ;
+    ns1:hasAlteration "Advanced argillic",
+        "Silicification" ;
+    ns1:hasAssociatedDeposit "Epithermal veins" ;
+    ns1:hasElement "Au",
+        "Cu",
+        "S" ;
+    ns1:hasMineral "Alunite",
+        "Enargite",
+        "Pyrophyllite" ;
+    ns1:hasRockType "Volcanic rocks" ;
+    ns1:hasTectonicSetting "Island-arc volcanism" .
+
+ns1:Intermediate_sulfidation_epithermal_Au-Ag a ns1:DepositType ;
+    ns1:hasAlteration "Argillic",
+        "Silicification" ;
+    ns1:hasElement "Ag",
+        "Au",
+        "Zn" ;
+    ns1:hasMineral "Galena",
+        "Sphalerite",
+        "Tetrahedrite" ;
+    ns1:hasRockType "Volcanic rocks" ;
+    ns1:hasTectonicSetting "Subvolcanic intrusions" .
+
+ns1:Lithocap_alunite a ns1:DepositType ;
+    ns1:hasAlteration "Advanced argillic" ;
+    ns1:hasMineral "Alunite",
+        "Kaolinite" ;
+    ns1:hasRockType "Volcanic rocks" ;
+    ns1:hasTectonicSetting "High-level intrusive environments" .
+
+ns1:Lithocap_alunite_High_sulfidation_Au-Ag a ns1:DepositType ;
+    ns1:hasAlteration "Advanced argillic",
+        "Silicification" ;
+    ns1:hasAssociatedDeposit "Epithermal veins" ;
+    ns1:hasElement "Ag",
+        "Au",
+        "Cu" ;
+    ns1:hasMineral "Alunite",
+        "Enargite",
+        "Kaolinite",
+        "Pyrophyllite" ;
+    ns1:hasRockType "Volcanic rocks" ;
+    ns1:hasTectonicSetting "High-level intrusive environments",
+        "Island-arc volcanism" .
+
+ns1:Lithocap_kaolinite_High_sulfidation_Au-Ag a ns1:DepositType ;
+    ns1:hasAlteration "Advanced argillic",
+        "Silicification" ;
+    ns1:hasAssociatedDeposit "Epithermal veins" ;
+    ns1:hasElement "Ag",
+        "Au",
+        "Cu" ;
+    ns1:hasMineral "Alunite",
+        "Enargite",
+        "Kaolinite",
+        "Pyrophyllite" ;
+    ns1:hasRockType "Volcanic rocks" ;
+    ns1:hasTectonicSetting "High-level intrusive environments",
+        "Island-arc volcanism" .
+
+ns1:Low_sulfidation a ns1:DepositType ;
+    ns1:hasAlteration "Adularia-sericite",
+        "Silicification" ;
+    ns1:hasAssociatedDeposit "Vein-hosted Au-Ag" ;
+    ns1:hasElement "Ag",
+        "Au" ;
+    ns1:hasMineral "Electrum",
+        "Galena",
+        "Sphalerite" ;
+    ns1:hasRockType "Volcanic rocks" ;
+    ns1:hasTectonicSetting "Extensional settings" .
+
+ns1:Low_sulfidation_Au-Ag a ns1:DepositType ;
+    ns1:hasAlteration "Adularia-sericite",
+        "Silicification" ;
+    ns1:hasAssociatedDeposit "Vein-hosted Au-Ag" ;
+    ns1:hasElement "Ag",
+        "Au" ;
+    ns1:hasMineral "Electrum",
+        "Galena",
+        "Sphalerite" ;
+    ns1:hasRockType "Volcanic rocks" ;
+    ns1:hasTectonicSetting "Extensional settings" .
+
+ns1:Low_sulfidation_Hg a ns1:DepositType ;
+    ns1:hasAlteration "Adularia-sericite",
+        "Silicification" ;
+    ns1:hasAssociatedDeposit "Vein-hosted Au-Ag" ;
+    ns1:hasElement "Ag",
+        "Au" ;
+    ns1:hasMineral "Electrum",
+        "Galena",
+        "Sphalerite" ;
+    ns1:hasRockType "Volcanic rocks" ;
+    ns1:hasTectonicSetting "Extensional settings" .
+
+ns1:Low_sulfidation_Sb a ns1:DepositType ;
+    ns1:hasAlteration "Adularia-sericite",
+        "Silicification" ;
+    ns1:hasAssociatedDeposit "Vein-hosted Au-Ag" ;
+    ns1:hasElement "Ag",
+        "Au" ;
+    ns1:hasMineral "Electrum",
+        "Galena",
+        "Sphalerite" ;
+    ns1:hasRockType "Volcanic rocks" ;
+    ns1:hasTectonicSetting "Extensional settings" .
+
+ns1:Polymetallic_sulfide_IS a ns1:DepositType ;
+    ns1:hasAssociatedDeposit "Replacement deposits" ;
+    ns1:hasElement "Ag",
+        "Cu",
+        "Pb",
+        "Zn" ;
+    ns1:hasMineral "Arsenopyrite",
+        "Chalcopyrite",
+        "Galena",
+        "Sphalerite" ;
+    ns1:hasRockType "Intrusive rocks",
+        "Sedimentary rocks" ;
+    ns1:hasTectonicSetting "Convergent plate boundaries" .
+
+ns1:Polymetallic_sulfide_intermediate_sulfidation a ns1:DepositType ;
+    ns1:hasAssociatedDeposit "Replacement deposits" ;
+    ns1:hasElement "Ag",
+        "Cu",
+        "Pb",
+        "Zn" ;
+    ns1:hasMineral "Arsenopyrite",
+        "Chalcopyrite",
+        "Galena",
+        "Sphalerite" ;
+    ns1:hasRockType "Intrusive rocks",
+        "Sedimentary rocks" ;
+    ns1:hasTectonicSetting "Convergent plate boundaries" .
+
+ns1:Polymetallic_sulfide_replacement a ns1:DepositType ;
+    ns1:hasAssociatedDeposit "Replacement deposits" ;
+    ns1:hasElement "Ag",
+        "Cu",
+        "Pb",
+        "Zn" ;
+    ns1:hasMineral "Arsenopyrite",
+        "Chalcopyrite",
+        "Galena",
+        "Sphalerite" ;
+    ns1:hasRockType "Intrusive rocks",
+        "Sedimentary rocks" ;
+    ns1:hasTectonicSetting "Convergent plate boundaries" .
+
+ns1:Polymetallic_sulfide_skarn a ns1:DepositType ;
+    ns1:hasAssociatedDeposit "Replacement deposits" ;
+    ns1:hasElement "Ag",
+        "Cu",
+        "Pb",
+        "Zn" ;
+    ns1:hasMineral "Arsenopyrite",
+        "Chalcopyrite",
+        "Galena",
+        "Sphalerite" ;
+    ns1:hasRockType "Intrusive rocks",
+        "Sedimentary rocks" ;
+    ns1:hasTectonicSetting "Convergent plate boundaries" .
+
+ns1:Polymetallic_sulfide_skarn_replacement a ns1:DepositType ;
+    ns1:hasAssociatedDeposit "Replacement deposits" ;
+    ns1:hasElement "Ag",
+        "Cu",
+        "Pb",
+        "Zn" ;
+    ns1:hasMineral "Arsenopyrite",
+        "Chalcopyrite",
+        "Galena",
+        "Sphalerite" ;
+    ns1:hasRockType "Intrusive rocks",
+        "Sedimentary rocks" ;
+    ns1:hasTectonicSetting "Convergent plate boundaries" .
+
+ns1:Polymetallic_sulfide_vein a ns1:DepositType ;
+    ns1:hasAssociatedDeposit "Replacement deposits" ;
+    ns1:hasElement "Ag",
+        "Cu",
+        "Pb",
+        "Zn" ;
+    ns1:hasMineral "Arsenopyrite",
+        "Chalcopyrite",
+        "Galena",
+        "Sphalerite" ;
+    ns1:hasRockType "Intrusive rocks",
+        "Sedimentary rocks" ;
+    ns1:hasTectonicSetting "Convergent plate boundaries" .
+
+ns1:Porphyry_Cu a ns1:DepositType ;
+    ns1:hasAlteration "Phyllic",
+        "Potassic" ;
+    ns1:hasAssociatedDeposit "Skarn deposits" ;
+    ns1:hasElement "Au",
+        "Cu",
+        "Mo" ;
+    ns1:hasMineral "Chalcopyrite",
+        "Molybdenite",
+        "Pyrite" ;
+    ns1:hasRockType "Monzogranite",
+        "Tonalite" ;
+    ns1:hasTectonicSetting "Convergent plate boundaries with subduction zones" .
+
+ns1:Porphyry_Cu-Mo a ns1:DepositType ;
+    ns1:hasAlteration "Phyllic",
+        "Potassic" ;
+    ns1:hasAssociatedDeposit "Skarn deposits" ;
+    ns1:hasElement "Au",
+        "Cu",
+        "Mo" ;
+    ns1:hasMineral "Chalcopyrite",
+        "Molybdenite",
+        "Pyrite" ;
+    ns1:hasRockType "Monzogranite",
+        "Tonalite" ;
+    ns1:hasTectonicSetting "Convergent plate boundaries with subduction zones" .
+
+ns1:Porphyry_Cu_Au a ns1:DepositType ;
+    ns1:hasAlteration "Phyllic",
+        "Potassic" ;
+    ns1:hasAssociatedDeposit "Skarn deposits" ;
+    ns1:hasElement "Au",
+        "Cu",
+        "Mo" ;
+    ns1:hasMineral "Chalcopyrite",
+        "Molybdenite",
+        "Pyrite" ;
+    ns1:hasRockType "Monzogranite",
+        "Tonalite" ;
+    ns1:hasTectonicSetting "Convergent plate boundaries with subduction zones" .
+
+ns1:Porphyry_Cu_or_High_sulfidation_Au-Ag a ns1:DepositType ;
+    ns1:hasAlteration "Advanced argillic",
+        "Phyllic",
+        "Potassic",
+        "Silicification" ;
+    ns1:hasAssociatedDeposit "Epithermal veins",
+        "Skarn deposits" ;
+    ns1:hasElement "Ag",
+        "Au",
+        "Cu",
+        "Mo" ;
+    ns1:hasMineral "Alunite",
+        "Chalcopyrite",
+        "Enargite",
+        "Molybdenite",
+        "Pyrite",
+        "Pyrophyllite" ;
+    ns1:hasRockType "Monzogranite",
+        "Tonalite",
+        "Volcanic rocks" ;
+    ns1:hasTectonicSetting "Convergent plate boundaries with subduction zones",
+        "Island-arc volcanism" .
+
+ns1:Porphyry_Mo a ns1:DepositType ;
+    ns1:hasAlteration "Phyllic",
+        "Potassic" ;
+    ns1:hasAssociatedDeposit "Skarn deposits" ;
+    ns1:hasElement "Au",
+        "Cu",
+        "Mo" ;
+    ns1:hasMineral "Chalcopyrite",
+        "Molybdenite",
+        "Pyrite" ;
+    ns1:hasRockType "Monzogranite",
+        "Tonalite" ;
+    ns1:hasTectonicSetting "Convergent plate boundaries with subduction zones" .
+
+ns1:Porphyry_skarn_Cu a ns1:DepositType ;
+    ns1:hasAlteration "Phyllic",
+        "Potassic" ;
+    ns1:hasAssociatedDeposit "Skarn deposits" ;
+    ns1:hasElement "Au",
+        "Cu",
+        "Mo" ;
+    ns1:hasMineral "Chalcopyrite",
+        "Molybdenite",
+        "Pyrite" ;
+    ns1:hasRockType "Monzogranite",
+        "Tonalite" ;
+    ns1:hasTectonicSetting "Convergent plate boundaries with subduction zones" .
+
+ns1:Porphyry_skarn_Cu_and_Distal_disseminated_Au-Au a ns1:DepositType ;
+    ns1:hasAlteration "Phyllic",
+        "Potassic" ;
+    ns1:hasAssociatedDeposit "Skarn deposits" ;
+    ns1:hasElement "Ag",
+        "As",
+        "Au",
+        "Cu",
+        "Mo" ;
+    ns1:hasMineral "Arsenopyrite",
+        "Chalcopyrite",
+        "Molybdenite",
+        "Pyrite" ;
+    ns1:hasRockType "Monzogranite",
+        "Sedimentary rocks",
+        "Tonalite" ;
+    ns1:hasTectonicSetting "Convergent plate boundaries with subduction zones",
+        "Distal to porphyry systems" .
+
+ns1:Skarn_W a ns1:DepositType ;
+    ns1:hasAlteration "Calc-silicate" ;
+    ns1:hasAssociatedDeposit "Porphyry-related skarn" ;
+    ns1:hasElement "Cu",
+        "Fe",
+        "W" ;
+    ns1:hasMineral "Garnet",
+        "Pyroxene",
+        "Scheelite" ;
+    ns1:hasRockType "Carbonate rocks",
+        "Limestone" ;
+    ns1:hasTectonicSetting "Contact metamorphic zones" .
+
