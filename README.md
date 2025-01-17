@@ -25,7 +25,8 @@ This repository explores the use of **Neuro-Symbolic AI (NSAI)** for geological 
 - **`Porphyry Cu-Mo-Au.csv`**
   - Contains geochemical and geological data pertinent to Porphyry Cu-Mo-Au deposits.
   - Serves as a data source for constructing and validating the NSAI models.
-
+  - Raw dataset from: U.S. Geological Survey, 2021. National geochemical database: Ore deposits - legacy data. Retrieved from https://www.usgs.gov/data/national-geochemical-database-ore-deposits-legacy-data.
+    
 ### Additional Files
 - **`LICENSE`**: MIT License for permissive use.
 - **`README.md`**: Documentation for repository usage and content.
