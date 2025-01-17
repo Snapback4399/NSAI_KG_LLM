@@ -3,6 +3,11 @@
 ## Overview
 This repository explores the use of **Neuro-Symbolic AI (NSAI)** for geological applications, specifically predicting copper deposit types. The project combines machine learning and symbolic reasoning to create interpretable models for ore deposit system analysis. The knowledge graph (KG) approach integrates geochemical and geological domain knowledge to enhance prediction accuracy and system interpretability.
 
+### Try Our Demo at Colab
+<a target="_blank" href="https://colab.research.google.com/github/Snapback4399/NSAI_KG_LLM/blob/main/NSAI_KG_Demo2501.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 ### Highlights
 - The **Jupyter Notebook** demonstrates the implementation of NSAI for predicting deposit types, focusing on **Porphyry Cu-Mo-Au** systems,and illustrates the construction of the corresponding knowledge graphs.
 - The **Turtle file** (`.ttl`) contains a knowledge graph of geological features and their relationships specific to Porphyry Cu-Mo-Au deposits.
@@ -52,7 +57,7 @@ Ensure the following tools and libraries are installed:
 - Required Python libraries:
   ```bash
   pip install rdflib networkx matplotlib
-
+  ```
 
 **Key Revisions:**
 
