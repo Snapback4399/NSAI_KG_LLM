@@ -20,9 +20,12 @@ This repository explores the use of **Neuro-Symbolic AI (NSAI)** for geological 
 - **`NSAI_KG_WeilinChen_0111.ipynb`**
   - Implements NSAI techniques for predicting copper deposit types.
   - Visualizes knowledge graphs to analyze relationships in Porphyry Cu-Mo-Au systems.
-  - Provides examples of integrating data-driven and knowledge-based methods.
   - Libraries used include `rdflib`, `networkx`, and `matplotlib`.
-
+  - 
+- **`NSAI_Model.ipynb`**
+  - Implements NSAI techniques for predicting copper deposit types.
+  - Provides 3 examples of integrating data-driven and knowledge-based methods.
+  - Libraries used include `pandas`, `networkx`, and `sklearn`.
 - **`geological_knowledge_graph_Cu.ttl`**
   - A Turtle RDF file encoding a **Porphyry Cu-Mo-Au Knowledge Graph**.
   - Captures relationships between geological features, alteration types, tectonic settings, minerals, and associated deposits.
